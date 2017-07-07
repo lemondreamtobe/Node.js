@@ -17,7 +17,7 @@ function router(res,req,pathname){
 	}
 };
 function goIndex(res,req) {
-	var readPath = _dirname + '/' + url.parse('index.html').pathname;
+	var readPath = __dirname + '/' + url.parse('index.html').pathname;
 	var indexPage = fs.readFileSync(readPath);
 	res.end(indexPage);
 };
@@ -30,7 +30,12 @@ function parseDns(res,req) {
 	req.addListener('end', function() {
 		var retData = getDns(postData, function(domain, addresses) {
 			res.writeHead(200, {'Content-Type':'text/html'});
-			res.end('<html><head><meta charset="UTF-8" content="text/html"></head><div style="text-align:center">domain:<span style="color:red">'+domain+"</span>Ip:<span style='color:red'>" + addresses.join(",") + "</span></div></html>")
+			var htmlstr ='<html><head><meta charset="UTF-8" content="text/html"></head><div style="text-align:center">domain:<span style="color:red">'
+						+ domain 
+						+ '</span>Ip:<span style="color:red">' 
+						+ addresses.join(',') 
+						+ "</span></div></html>";
+			res.end(htmlstr);
 		});
 		return;
 	});
@@ -53,6 +58,6 @@ http.createServer(function(req,res) {
 	var pathname = url.parse(req.url).pathname;
 	req.setEncoding('utf-8');
 	res.writeHead(200, {'Content-Type':'text/html'});
-	router(res,req,pathname);
+	router(res,req,pathname); //路由
 }).listen(3000, '127.0.0.1');
 console.log('server running at 127.0.0.1:3000');
