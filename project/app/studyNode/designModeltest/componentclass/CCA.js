@@ -4,7 +4,7 @@ var Decorator = require('./decorator');
 function ConcreteDecoratorA() {
 	Decorator.call(this);
 	this.operation = function() {
-		Decorator.operation();
+		Decorator.operation;
 		console.log('add some decorator by ConcreteDecoratorA');
 	}
 }

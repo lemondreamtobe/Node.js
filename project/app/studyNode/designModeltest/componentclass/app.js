@@ -1,8 +1,8 @@
 var Com = require('./component');
 var CCom = require('./concreteComponent');
 var Decro = require('./decorator');
-var ComA = require('./concreteComponentA');
-var ComB = require('./concreteComponentB');
+var ComA = require('./CCA');
+var ComB = require('./CCB');
 
 var com = new Com();
 var ccom = new CCom();
@@ -13,7 +13,7 @@ var comB = new ComB();
 console.log('<------com------>');
 com.operation();
 
-console.log('<-----ccom----->');
+console.log('<-----cretecom----->');
 ccom.operation();
 
 console.log('<------decro---->');
