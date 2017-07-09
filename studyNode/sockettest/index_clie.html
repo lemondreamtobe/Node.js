@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-	</head>
-	<body>
-		<script src="/D:/360data/重要数据/我的文档/GitHub/Node.js/project/app/node_modules/socket.io/lib/socket.js"></script>
-		<script>
-			var socket = io.sockets.connect('http://localhost:8080');
-			socket.on('news', function(data) {
-				//接受NEWS消息时执行回调
-				console.log(data);
-				socket.emit('my other event', {my:'data'});
-			})
-		</script>
-	</body>
-</html>
+<script src="socket.js"></script>
+<script>
+  var socket = io.connect('http://localhost:8080');
+  socket.emit('msg', {'state' : 'success'});
+  socket.on('msg', function(data) {
+  	
+  	console.log(data);
+  	
+  	if (data.me) {
+  		socket.emit('msg', {connection : 'good'});
+  	}
+  })
+</script>

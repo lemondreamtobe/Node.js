@@ -1,8 +1,18 @@
-var io = require('socket.io').listen(80);
-//定义socket连接时执行的回调操作
-io.socket.on('connection', function(socket) {
-	socket.emit('news', {hello : 'world'});
-	socket.on('my other event', function(data) {
-		console.log(data);
-	})
-}
+var io = require('socket.io').listen(8080);
+io.sockets.on('connection', function (socket) {
+		
+		socket.on('msg', function(data) {
+			console.log(data);
+			
+			if (data.state) {
+				
+				if (data.state == 'success') {
+					socket.emit('msg', {'me' : 'very good'});
+				} else {
+					socket.emit('msg', {other :' thast all'});
+				}
+			} else {
+				socket.emit('msg', {other : 'tahts all'})
+			}
+		})
+});
