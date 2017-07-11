@@ -42,8 +42,9 @@ exports.getStaticFile = function(pathname, res){
                 } else {
                     res.writeHead(200, {'Content-Type': mmieType});
                     res.write(file, "binary");
-                    console.log(extname);
+                    console.log(BASE_DIR);
                     console.log(pathname);
+                    console.log(extname);
                     console.log(realPath);
                     res.end();
                 }

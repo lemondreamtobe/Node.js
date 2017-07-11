@@ -36,8 +36,8 @@ exports.getStaticFile = function(pathname, res, req){
             res.write("This request URL " + pathname + " was not found on this server.");
             res.end();
         } else {
-			var fileInfo = fs.statSync(realPath); //获取文件信息
-			var lastModified = fileInfo.mtime.toUTCString(); //获取最后一次的修改时间
+			var fileInfo = fs.statSync(realPath);
+			var lastModified = fileInfo.mtime.toUTCString();
 			/* 设置缓存 */
 			if ( mmieConf[extname]) {
 				var date = new Date();
