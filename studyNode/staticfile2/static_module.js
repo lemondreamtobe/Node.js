@@ -28,7 +28,7 @@ exports.getStaticFile = function(pathname, res){
 	var extname = path.extname(pathname); //path模块用于获取文件后缀名
 	extname  = extname  ? extname.slice(1) : '';
 	var realPath = STATIC + pathname;
-	var mmieType = mmieConf[extname] ? mmieConf[extname] : 'text/plain';
+	var mmieType = mmieConf[extname] ? mmieConf[extname] : 'text/plain'; //根据后缀名在JSON文件里拿到MIME类型
 	fs.exists(realPath, function (exists) {
         if (!exists) {
             res.writeHead(404, {'Content-Type': 'text/plain'});
@@ -43,6 +43,7 @@ exports.getStaticFile = function(pathname, res){
                     res.writeHead(200, {'Content-Type': mmieType});
                     res.write(file, "binary");
                     console.log(extname);
+                    console.log(pathname);
                     console.log(realPath);
                     res.end();
                 }
