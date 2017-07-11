@@ -10,6 +10,6 @@ function ConcreteDecoratorB() {
 			console.log('add new method by ConcreteDecoratorB')
 		}
 	}
-}
+};
 util.inherits(ConcreteDecoratorB, Decorator);
 module.exports = ConcreteDecoratorB;
