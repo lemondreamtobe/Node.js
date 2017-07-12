@@ -44,6 +44,9 @@ fs.readdir('./test',function (err, files) {
     } else {
         console.log(files);
     }
-})
+});
+fs.stat('./test.text', function(err, stats) {
+	console.log(stats);
+});
 
 
