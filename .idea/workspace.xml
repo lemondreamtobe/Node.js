@@ -24,8 +24,13 @@
       <file leaf-file-name="file-t.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NodeAuthority/CP6/6.1/file-t.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="320">
               <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+=======
+            <state relative-caret-position="272">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+>>>>>>> beaed802a22719e7d568748e2a18eabb6d4d18f1
               <folding />
             </state>
           </provider>
@@ -183,6 +188,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,16 +335,27 @@
       <workItem from="1499846839829" duration="5000" />
       <workItem from="1499846868145" duration="39000" />
       <workItem from="1499846919145" duration="4274000" />
+<<<<<<< HEAD
       <workItem from="1499851573822" duration="1687000" />
       <workItem from="1499861916336" duration="505000" />
       <workItem from="1499862459151" duration="54000" />
       <workItem from="1499862548558" duration="1931000" />
       <workItem from="1499952807311" duration="895000" />
+=======
+      <workItem from="1499851573822" duration="1959000" />
+      <workItem from="1499905961582" duration="639000" />
+      <workItem from="1499906630625" duration="488000" />
+      <workItem from="1499907132288" duration="6000" />
+>>>>>>> beaed802a22719e7d568748e2a18eabb6d4d18f1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="12013000" />
+=======
+    <option name="totallyTimeSpent" value="10033000" />
+>>>>>>> beaed802a22719e7d568748e2a18eabb6d4d18f1
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,7 +379,10 @@
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> beaed802a22719e7d568748e2a18eabb6d4d18f1
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -426,6 +446,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeAuthority/CP6/6.1/test.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeAuthority/CP6/6.1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -580,8 +614,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeAuthority/CP6/6.1/file-t.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="320">
           <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+=======
+        <state relative-caret-position="272">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+>>>>>>> beaed802a22719e7d568748e2a18eabb6d4d18f1
           <folding />
         </state>
       </provider>
