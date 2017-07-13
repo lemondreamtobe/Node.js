@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
+    <content url="file://$MODULE_DIR$/../Pjfwd.js" />
     <content url="file://D:/webprogram/sts_ws/projectYN/gmvcs-homepage" />
     <content url="file://D:/webprogram/sts_ws/projectYN/gmvcs-leavrepo" />
     <content url="file://D:/webprogram/sts_ws/projectYN/gmvcs-mediasys" />
